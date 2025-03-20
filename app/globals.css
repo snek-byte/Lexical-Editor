@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-inter: "";
+  --font-roboto: "";
+  --font-lato: "";
+  --font-open-sans: "";
+  --font-montserrat: "";
+  --font-roboto-condensed: "";
+  --font-source-sans: "";
+  --font-oswald: "";
+  --font-raleway: "";
+  --font-poppins: "";
+  --font-nunito: "";
+  --font-playfair: "";
+  --font-merriweather: "";
+  --font-ubuntu: "";
+  --font-rubik: "";
+}
+
+body {
+  background-color: #f8fafc;
+  color: #334155;
+}
+
+.glassmorphism {
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.07);
+}
+
+.font-dropdown-glassmorphic {
+  background: rgba(255, 255, 255, 0.15) !important;
+  backdrop-filter: blur(12px) !important;
+  -webkit-backdrop-filter: blur(12px) !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.1), 0 0 0 1px rgba(255, 255, 255, 0.1) inset !important;
+  border-radius: 12px !important;
+}
+
+.font-option-glassmorphic {
+  transition: all 0.2s ease;
+  border-radius: 8px;
+}
+
+.font-option-glassmorphic:hover {
+  background: rgba(255, 255, 255, 0.25) !important;
+  backdrop-filter: blur(5px) !important;
+  -webkit-backdrop-filter: blur(5px) !important;
+}
+
+.font-option-glassmorphic.selected {
+  background: rgba(255, 255, 255, 0.3) !important;
+  backdrop-filter: blur(8px) !important;
+  -webkit-backdrop-filter: blur(8px) !important;
+  box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.2) !important;
+}
+
+.prose {
+  max-width: none;
+}
+
+.prose p {
+  margin-bottom: 1em;
+}
+
+.prose h1,
+.prose h2,
+.prose h3 {
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+
